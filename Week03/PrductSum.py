@@ -34,7 +34,7 @@ def createProductSumSequence(sequence, maxIndex):
 
 def findProductSum(n):
 
-    element_list = []
+    element_list = []   # depth을 통해 기록하도록 하면 pop안해도 될 것 같습니다.
     result = []
     
     def recur(min, product, sum, depth):
